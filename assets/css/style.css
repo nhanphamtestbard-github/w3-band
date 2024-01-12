@@ -29,6 +29,10 @@ html{
     background-color: black;
 }
 
+#nav{
+    display: inline-block;
+}
+
 #nav, .subnav{
     list-style-type: none;
 }
@@ -83,6 +87,22 @@ html{
     color: #333;
     padding: 0 16px;
     line-height: 38px;
+}
+
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+
+#header .search-btn:hover{
+    background-color: #f44336 ;
+    cursor: pointer;
+}
+
+#header .search-btn{
+    color:#fff;
+    float: right;
+    line-height: 46.5px;
+    padding: 0 23px;
 }
 
 /* #nav .subnav a{
