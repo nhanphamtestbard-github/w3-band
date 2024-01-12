@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Tổng quan đến chi tiết
+ */
+
+/* 
+1. Vị trí
+2. Kích thước
+3. Màu sắc
+4. Kiểu dáng (kiểu chữ, hình tròn, vuông,...)
+ */
+#main{
+
+}
+
+#header{
+    height: 46.5px;
+    background-color: black;
+}
+
+#nav, .subnav{
+    list-style-type: none;
+}
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav li{
+    position: relative;
+}
+
+#nav > li > a{
+    color: white;
+}
+
+#nav li a{
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0 24px;
+    display: block;
+    text-transform: uppercase;
+}
+
+/* #nav li:hover a{
+    color:black;
+    background-color: #ccc;
+
+} */
+
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    color:black;
+    background-color: #ccc;
+
+}
+
+#nav .subnav {
+    /* display: none; */
+    position: absolute;
+    background-color: #e9b2b2;
+}
+
+#nav .subnav a {
+    color: #333;
+}
+
+#nav .subnav:hover {
+   
+}
+
+/* #nav .subnav a{
+    display: inline-block;
+} */
+
+#slider{
+
+    min-height: 500px;
+    background-color: #333;
+
+}
+
+#content{
+
+}
+
+#footer{
+
+}
