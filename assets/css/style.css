@@ -43,6 +43,7 @@ html{
 
 #nav > li > a{
     color: white;
+    text-transform: uppercase;
 }
 
 #nav li a{
@@ -50,7 +51,6 @@ html{
     line-height: 46.5px;
     padding: 0 24px;
     display: block;
-    text-transform: uppercase;
 }
 
 /* #nav li:hover a{
@@ -66,18 +66,21 @@ html{
 
 }
 
+#nav li:hover .subnav{
+    display: block;
+}
+
 #nav .subnav {
-    /* display: none; */
+    display: none;
     position: absolute;
-    background-color: #e9b2b2;
+    background-color: #fff;
+    box-shadow: 0 0 5px grey;
 }
 
 #nav .subnav a {
     color: #333;
-}
-
-#nav .subnav:hover {
-   
+    padding: 0 16px;
+    line-height: 38px;
 }
 
 /* #nav .subnav a{
@@ -87,7 +90,7 @@ html{
 #slider{
 
     min-height: 500px;
-    background-color: #333;
+    /* background-color: #333; */
 
 }
 
