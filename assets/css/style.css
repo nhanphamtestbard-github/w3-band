@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -20,41 +20,46 @@ html{
 3. Màu sắc
 4. Kiểu dáng (kiểu chữ, hình tròn, vuông,...)
  */
-#main{
 
+.clear{
+    clear:both;
 }
 
-#header{
+
+#main {}
+
+#header {
     position: fixed;
-    top:0;
-    left:0;
-    right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 46.5px;
     background-color: black;
 }
 
-#nav{
+#nav {
     display: inline-block;
 }
 
-#nav, .subnav{
+#nav,
+.subnav {
     list-style-type: none;
 }
 
-#nav > li{
+#nav>li {
     display: inline-block;
 }
 
-#nav li{
+#nav li {
     position: relative;
 }
 
-#nav > li > a{
+#nav>li>a {
     color: white;
     text-transform: uppercase;
 }
 
-#nav li a{
+#nav li a {
     text-decoration: none;
     line-height: 46.5px;
     padding: 0 24px;
@@ -67,14 +72,14 @@ html{
 
 } */
 
-#nav > li:hover > a,
-#nav .subnav li:hover a{
-    color:black;
+#nav>li:hover>a,
+#nav .subnav li:hover a {
+    color: black;
     background-color: #ccc;
 
 }
 
-#nav li:hover .subnav{
+#nav li:hover .subnav {
     display: block;
 }
 
@@ -93,70 +98,69 @@ html{
     line-height: 38px;
 }
 
-#nav .nav-arrow-down{
+#nav .nav-arrow-down {
     font-size: 14px;
 }
 
-#header .search-btn:hover{
-    background-color: #f44336 ;
+#header .search-btn:hover {
+    background-color: #f44336;
     cursor: pointer;
 }
 
-#header .search-btn{
-    color:#fff;
+#header .search-btn {
+    color: #fff;
     float: right;
     line-height: 46.5px;
     padding: 0 23px;
 }
 
-#slider{
+#slider {
     position: relative;
     margin-top: 46.5px;
-    padding-top:50%;
+    padding-top: 50%;
     background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
 }
 
-#slider .text-content{
+#slider .text-content {
     position: absolute;
     bottom: 10%;
-  
+
     right: 0;
-    left:0;
+    left: 0;
     color: yellow;
     width: 100%;
-    text-align: center; 
+    text-align: center;
 }
 
-#slider .text-heading{
+#slider .text-heading {
     font-weight: 500;
     font-size: 2rem;
-    margin:10px;
+    margin: 10px;
 
 }
-#slider .text-description{
+
+#slider .text-description {
     font-size: 1rem;
-    margin-top:20px
+    margin-top: 20px
 }
 
-#content{
+#content {}
 
-}
-
-#content .content-section{
+#content .content-section {
     width: 800px;
     padding: 64px 0;
     margin-left: auto;
     margin-right: auto;
 }
 
-#content .section-heading{
+#content .section-heading {
     text-align: center;
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 4px;
 }
 
-#content .section-sub-heading{
+#content .section-sub-heading {
     text-align: center;
     font-size: 15px;
     margin-top: 25px;
@@ -169,13 +173,32 @@ html{
 2. Tiếng Việt: 1.6
 */
 
-#content .about-text{
+#content .about-text {
     font-size: 15px;
     margin-top: 25px;
     text-align: justify;
     line-height: 1.4;
 }
 
-#footer{
+#content .member-list {
+    margin-top: 48px;
+}
+
+#content .member-item {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
 
 }
+
+#content .member-img{
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#footer {}
